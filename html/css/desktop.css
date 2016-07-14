@@ -236,6 +236,31 @@ img.socialLinks {
   left: 1%;
 }
 
+#memberLayout td {
+  width: 50%;
+  padding-top: 10px;
+  border: 1px;
+  border-style: dashed;
+  border-radius: 100px;
+  border-color: #000
+}
+#memberLayout p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center
+}
+#memberLayout p.space {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.memberPhoto {
+  height: 175px;
+  display: block;
+  margin: 0px auto;
+}
+
 .brackettable {
   border: 1px solid #777;
   margin: 0 auto;
