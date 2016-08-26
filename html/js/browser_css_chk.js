@@ -32,7 +32,3 @@ $('title').ready(function() {
     a.href = "/css/desktop.css";
   }
 });
-window.addEventListener("orientationchange", function() {
-  // Announce the new orientation number
-  console.log(window.orientation);
-}, false);
