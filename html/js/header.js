@@ -23,3 +23,15 @@ $(function() {
         }
     });
 });
+$(function() {
+  $("header").click(function() {
+    event.stopPropagation();
+    $( "#mainNavMobi" ).show( "slide", { direction: "left" });
+  });
+  $("#mainNavMobi").on("click", function (event) {
+        event.stopPropagation();
+    });
+  $( document ).on("click", function () {
+    $("#mainNavMobi").hide();
+  });
+});
