@@ -1,0 +1,13 @@
+body {
+  margin: 0px;
+  background-color: #e6e6e6;
+}
+body header {
+  display: none;
+}
+body section {
+  display: none;
+}
+body footer {
+  display: none;
+}
