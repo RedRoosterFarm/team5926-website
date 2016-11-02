@@ -1,0 +1,16 @@
+.navbar .nav > li > a {
+    float: none;
+    color: #000;
+    background-color: #fff;
+}
+.navbar .nav > li > a:hover {
+    float: none;
+    color: #002E36;
+    background-color: #f0f0f0;
+}
+.navbar-brand {
+  color: #000;
+}
+#header-nav {
+  background: #fff;
+}
