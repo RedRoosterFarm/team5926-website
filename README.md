@@ -2,6 +2,7 @@
 ![alt text][logo]
 
 [logo]: http://team5926.ddns.net/images/moo.gif "MooBotics"
+
 This is the code for the -- FRC Team 5926 -- 2017 and beyond Website.
 All pages servered to viewers use HTML5, JavaScript and CSS3.
 There is a single php script using AJAX for the contact form.
