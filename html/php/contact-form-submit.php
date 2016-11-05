@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit;
   }
   // MySQL database insert
-  $db = new mysqli('localhost',$dbUser,$dbPassword,'moobotics');
+  $db = new mysqli('localhost',$dbUser,$dbPassword,'Da MOOse');
   if (mysqli_connect_errno()) {
     // Set a 500 (internal server error) response code.
     http_response_code(500);
