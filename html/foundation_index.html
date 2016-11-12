@@ -9,29 +9,47 @@
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
+
     <header>
-      <nav class="top-bar" data-topbar>
-        <ul class="title-area">
-          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-        <div class="logo">
-          <a href="http://zurb.com/stickers/images/intro-foundation.png"><img src="http://zurb.com/stickers/images/intro-foundation.png" /></a>
+      <!--div data-sticky-container>
+        <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+          <div class="title-bar-left"><!-- Content --><!--/div>
+          <div class="title-bar-right"><!-- Content --><!--/div>
         </div>
-        <section class="top-bar-section">
-          <!-- Right Nav Section -->
-          <ul class="center-buttons">
-            <li class="divider"></li>
-            <li><a href="#">Centered Button</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Centered Button</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Centered Button</a></li>
-            <li class="divider"></li>
-          </ul>
-        </section>
-      </nav>
+      </div-->
+
+
+
+      <div >
+        <div class="top-bar" data-sticky-container data-sticky data-options="marginTop:0;" style="width:100%">
+          <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li class="menu-text">Site Title</li>
+              <li>
+                <a href="#">One</a>
+                <ul class="menu vertical">
+                  <li><a href="#">One</a></li>
+                  <li><a href="#">Two</a></li>
+                  <li><a href="#">Three</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search"></li>
+              <li><button type="button" class="button">Search</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
+
+
+
+
     <div class="row">
       <div class="large-12 columns">
         <h1>Welcome to Foundation</h1>
@@ -184,9 +202,13 @@
       </div>
     </div>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/vendor/what-input.js"></script>
+    <script src="/js/vendor/foundation.js"></script>
+    <script src="/js/foundation.core.js"></script>
+    <script src="/js/foundation.sticky.js"></script>
+    <script src="/js/foundation.util.mediaQuery.js"></script>
+    <script src="/js/foundation.util.triggers.js"></script>
+    <script src="/js/app.js"></script>
   </body>
 </html>
