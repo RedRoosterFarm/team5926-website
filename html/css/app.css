@@ -5,6 +5,9 @@
   .top-bar .top-bar-title {
     width: 100%;
   }
+  .top-bar .menu-hamburger {
+    padding: .4rem;
+  }
 }
 .top-bar .top-bar-title strong {
   color: #fff;
@@ -14,11 +17,7 @@
 .top-bar .menu-hamburger {
   float: right;
 }
-@media only screen and (max-width: 64em) {
-  .top-bar .menu-hamburger {
-    padding: .4rem;
-  }
-}
+
 .top-bar .menu-hamburger .menu-text {
   color: #fff;
 }
@@ -49,4 +48,41 @@
 .form {
   height: 4em;
   width: 10em;
+}
+#FIRSTvideo {
+  display: block;
+  margin: auto;
+  border: 0;
+  width: 26em;
+  height: 15em;
+}
+.gray {
+  padding: 50px;
+  background-color: #aaaaaa;
+  border-radius: 50px;
+  height: 20em;
+}
+
+@media only screen and (min-width: 64em) {
+  body {
+    background-image: url(/images/plaid_test.svg);
+    background-repeat: repeat;
+    background-size: 128px 128px;
+  }
+}
+
+#aboutPhoto1 {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+span.BI {
+  font-weight: 600;
+  font-style: italic;
+}
+.sponsors {
+  width: 50%;
+  height: auto;
 }

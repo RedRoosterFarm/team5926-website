@@ -1,0 +1,52 @@
+.brackettable {
+  border: 1px solid #777;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.brackettable .winnerL{
+  background-image: url(http://www.thebluealliance.com/images/icons/advancedR.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  font-weight: bold;
+}
+.brackettable .leftAlliance {
+  padding: 0 13px 0 3px;
+}
+.brackettable .secondC {
+  background-image: url(http://www.thebluealliance.com/images/icons/secondplace.png);
+  background-position: center 15px;
+  background-repeat: no-repeat;
+  background-color: #eee;
+  padding-top: 24px;
+}
+.brackettable .winnerC {
+  background-image: url(http://www.thebluealliance.com/images/icons/firstplace.png);
+  background-position: center 15px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  padding-top: 24px;
+}
+.brackettable .winnerR{
+  background-image: url(http://www.thebluealliance.com/images/icons/advancedL.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  font-weight: bold;
+}
+.brackettable .rightAlliance {
+  padding: 0 3px 0 23px;
+}
+.brackettable tr td {
+  padding: 3px 15px;
+  border: 1px solid #777;
+  text-align: center;
+  background-color: #eee;
+  padding: 0 5px;
+}
+.brackettable .alliance_number {
+  font-weight: bold;
+}
