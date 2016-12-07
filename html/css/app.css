@@ -87,3 +87,10 @@ span.BI {
   width: 50%;
   height: auto;
 }
+
+.menu .active > a {
+  background-color: firebrick;
+}
+.button.submit {
+  background-color: firebrick;
+}
