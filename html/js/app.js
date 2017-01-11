@@ -1,5 +1,5 @@
 /*
-   Copyright 2016 Samuel H. Walker
+   Copyright 2016-2017 Samuel H. Walker
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -13,16 +13,4 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-body {
-  margin: 0px;
-  background-color: #e6e6e6;
-}
-body header {
-  display: none;
-}
-body section {
-  display: none;
-}
-body footer {
-  display: none;
-}
+$(document).foundation();
