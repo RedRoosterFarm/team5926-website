@@ -26,14 +26,19 @@
 
 .DMF {
   font-family: "DMCF", sans-serif;
-  font-size: 3em;
+  font-size: 4em;
 
 }
 
 @media only screen and (min-width: 64em) {
   .HHT {
-    transform: translateY(50%);
+    transform: translateY(40%);
   }
+}
+
+.ital-premiss {
+  font-style: italic;
+  font-size: 0.8em;
 }
 
 .image-blurred-edge {
@@ -138,8 +143,26 @@ body {
   }
 }
 
+a.clean_email {
+  text-decoration:none;
+  color:#fff;
+}
+
+a.clean {
+  text-decoration:none;
+  color:#000;
+}
+
 #aboutPhoto1 {
   width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#homePhoto1 {
+  width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;

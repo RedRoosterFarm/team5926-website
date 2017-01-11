@@ -8,7 +8,7 @@
 
        http://www.apache.org/licenses/LICENSE-2.0
 
-   Unless required by applicable law or agreed to in writing, software
+   Unless disabled required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
@@ -25,7 +25,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
     <title>Da MOOse - FRC Team 5926</title>
     <link rel="stylesheet" href="/css/foundation.css">
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/app.css?build=2017-01-11">
+    <link rel="icon" type="image/png" href="https://www.team5926.org/images/favicon.png">
   </head>
   <body>
     <header>
@@ -52,8 +53,8 @@
                     <li class="has-submenu">
                       <a href="members.html">Members</a>
                       <ul class="submenu menu vertical text-center" data-submenu>
-                        <!--<li><a href="/">Mentors</a></li>-->
                         <li><a href="members-students.html">Our Students</a></li>
+                        <li><a href="/members-mentors.html">Our Mentors</a></li>
                       </ul>
                     </li>
                     <li><a href="sponsors.html">Sponsors</a></li>
@@ -75,38 +76,49 @@
             <h3>Contact Us</h3>
           </div>
         </div>
-        <br>
+        <div class="row">
+          <div class="large-6 columns large-centered text-center">
+            The contact form is currently unavailable.
+            <br>
+            Need contact us? Use the link below.
+            <br><br>
+            <a target="_top" rel="noopener noreferrer" href="mailto:webmaster@team5926.org" class="clean_email" title="Contact Us">
+              <span style="background:#C40000;padding:10px;margin:10;border-radius:10px;">Contact Webmaster</span>
+            </a>
+          </div>
+        </div>
+        <br><br>
         <div id="form-messages"></div>
-        <form id="ajax-contact" method="post" action="/php/contact-form-submit.php" autocomplete="off">
+        <form id="ajax-contact" method="post" action="/php/contact-form-submit.php" autocomplete="on">
           <div class="row">
             <div class="large-6 columns">
               <label for="firstName">First Name:</label>
-              <input type="text" placeholder="Fred" id="firstName" name="firstName" required>
+              <input type="text" placeholder="Fred" id="firstName" name="firstName" disabled required>
             </div>
             <div class="large-6 columns">
               <label for="lastName">Last Name:</label>
-              <input type="text" placeholder="DaMOOse" id="lastName" name="lastName" required>
+              <input type="text" placeholder="DaMOOse" id="lastName" name="lastName" disabled required>
             </div>
           </div>
           <div class="row">
             <div class="large-6 columns">
               <label for="telephone">Telephone (optional):</label>
-              <input type="tel" placeholder="(123)-456-5926" required id="telephone" name="telephone" accesskey="">
+              <input type="tel" placeholder="(123)-456-5926" disabled required id="telephone" name="telephone" accesskey="">
             </div>
             <div class="large-6 columns">
               <label for="email">Email:</label>
-              <input type="email" placeholder="freddymooseman@team5926.org" id="email" name="email" required>
+              <input type="email" placeholder="freddymooseman@team5926.org" id="email" name="email" disabled required>
             </div>
           </div>
           <div class="row">
             <div class="large-12 columns">
               <label for="message">Message:</label>
-              <textarea id="message" name="message" placeholder="I am not your average Moose..." required></textarea>
+              <textarea id="message" name="message" placeholder="I am not your average Moose..." disabled required></textarea>
             </div>
           </div>
           <div class="row">
             <div class="large-12 columns text-center">
-              <button type="submit" class="submit button form"><b>Send</b></button>
+              <button type="submit" class="submit button form" disabled><b>Send</b></button>
             </div>
           </div>
         </form>
