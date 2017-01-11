@@ -1,37 +1,37 @@
 ### Images ###
 # JPEG
-.jpg
-.jpeg
-.jpe
-.jif
-.jfif
-.jfi
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
 
 # JPEG 2000
-.jp2
-.j2k
-.jpf
-.jpx
-.jpm
-.mj2
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
 
 # JPEG XR
-.jxr
-.hdp
-.wdp
+*.jxr
+*.hdp
+*.wdp
 
 # X BitMap
-.xbm
+*.xbm
 
 # RAW
-.raw
+*.raw
 
 # BMP
-.bmp
-.dib
+*.bmp
+*.dib
 
 # ICO
-.ico
+*.ico
 
 # Favicon
 favicon.png
