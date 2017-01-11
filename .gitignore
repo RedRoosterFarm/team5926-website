@@ -33,6 +33,9 @@
 # ICO
 .ico
 
+# Favicon
+favicon.png
+
 ### Linux ###
 *~
 
@@ -99,3 +102,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Font Files
+*.ttf
+*.woff
