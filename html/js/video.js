@@ -1,4 +1,3 @@
-<?php
 /*
    Copyright 2016-2017 Samuel H. Walker
 
@@ -14,6 +13,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-$dbUser = 'USERNAME';
-$dbPassword = 'PASSWORD';
-?>
+$(window).bind( "load", function () {
+  var vdiv = "videoDiv";
+  document.getElementById(vdiv).innerHTML = '<iframe width="480" height="270" src="https://www.youtube.com/embed/i1QyM9WTF18" allowfullscreen id="FIRSTvideo"></iframe>';
+});
