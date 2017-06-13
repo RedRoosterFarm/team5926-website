@@ -1,13 +1,6 @@
 # team5926-website
-<<<<<<< HEAD
-![alt text][logo]
-
-[logo]: http://team5926.ddns.net/images/moo.gif "Da MOOse"
-
-=======
 <img src="https://www.team5926.org/images/logo.png" width="128" alt="Logo" >
 <br>
->>>>>>> origin/dev
 This is the code for the -- FRC Team 5926 -- 2017 and beyond Website.
 All pages servered to viewers use HTML5, JavaScript and CSS3.
 There is a single php script using AJAX for the contact form.
