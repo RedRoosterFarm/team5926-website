@@ -169,6 +169,14 @@ a.clean {
   display: block;
 }
 
+#homePhoto2 {
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 span.BI {
   font-weight: 600;
   font-style: italic;

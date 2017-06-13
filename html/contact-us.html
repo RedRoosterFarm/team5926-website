@@ -25,7 +25,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
     <title>Da MOOse - FRC Team 5926</title>
     <link rel="stylesheet" href="/css/foundation.css">
-    <link rel="stylesheet" href="/css/app.css?build=2017-01-11">
+    <link rel="stylesheet" href="/css/app.css?build=2017-05-17">
     <link rel="icon" type="image/png" href="https://www.team5926.org/images/favicon.png">
   </head>
   <body>
@@ -76,7 +76,7 @@
             <h3>Contact Us</h3>
           </div>
         </div>
-        <div class="row">
+        <!--<div class="row">
           <div class="large-6 columns large-centered text-center">
             The contact form is currently unavailable.
             <br>
@@ -86,39 +86,39 @@
               <span style="background:#C40000;padding:10px;margin:10;border-radius:10px;">Contact Webmaster</span>
             </a>
           </div>
-        </div>
+        </div>-->
         <br><br>
         <div id="form-messages"></div>
         <form id="ajax-contact" method="post" action="/php/contact-form-submit.php" autocomplete="on">
           <div class="row">
             <div class="large-6 columns">
               <label for="firstName">First Name:</label>
-              <input type="text" placeholder="Fred" id="firstName" name="firstName" disabled required>
+              <input type="text" placeholder="Fred" id="firstName" name="firstname" required>
             </div>
             <div class="large-6 columns">
               <label for="lastName">Last Name:</label>
-              <input type="text" placeholder="DaMOOse" id="lastName" name="lastName" disabled required>
+              <input type="text" placeholder="DaMOOse" id="lastName" name="lastname" required>
             </div>
           </div>
           <div class="row">
             <div class="large-6 columns">
               <label for="telephone">Telephone (optional):</label>
-              <input type="tel" placeholder="(123)-456-5926" disabled required id="telephone" name="telephone" accesskey="">
+              <input type="tel" placeholder="(123)-456-5926" required id="telephone" name="telephone" accesskey="">
             </div>
             <div class="large-6 columns">
               <label for="email">Email:</label>
-              <input type="email" placeholder="freddymooseman@team5926.org" id="email" name="email" disabled required>
+              <input type="email" placeholder="freddymooseman@team5926.org" id="email" name="email" required>
             </div>
           </div>
           <div class="row">
             <div class="large-12 columns">
               <label for="message">Message:</label>
-              <textarea id="message" name="message" placeholder="I am not your average Moose..." disabled required></textarea>
+              <textarea id="message" name="message" placeholder="I am not your average Moose..." required></textarea>
             </div>
           </div>
           <div class="row">
             <div class="large-12 columns text-center">
-              <button type="submit" class="submit button form" disabled><b>Send</b></button>
+              <button type="submit" class="submit button form"><b>Send</b></button>
             </div>
           </div>
         </form>
