@@ -36,6 +36,9 @@
 # Favicon
 favicon.png
 
+## Password file ##
+dbstuff.php
+
 ### Linux ###
 *~
 
