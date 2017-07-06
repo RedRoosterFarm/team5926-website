@@ -1,4 +1,8 @@
 ### Images ###
+
+# PNG
+*.png
+
 # JPEG
 *.jpg
 *.jpeg
