@@ -3,6 +3,12 @@
 # PNG
 *.png
 
+# GIF
+*.gif
+
+# SVG
+*.svg
+
 # JPEG
 *.jpg
 *.jpeg
