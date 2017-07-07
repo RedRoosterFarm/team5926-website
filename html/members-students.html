@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <!--
-   Copyright 2016-2017 Samuel H. Walker
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+Copyright 2016-2017 Samuel H. Walker
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 -->
-<html lang="en">
+<html class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Da MOOse">
@@ -24,11 +21,16 @@
     <meta name="theme-color" content="#000">
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
     <title>Da MOOse - FRC Team 5926</title>
+    <!-- From here -->
+    <!-- Begin CSS -->
     <link rel="stylesheet" href="/css/foundation.css">
     <link rel="stylesheet" href="/css/app.css?build=2017-05-17">
+    <!-- End CSS -->
+    <!-- To here will be either be: Compressed/minified to one file and/or connected to the file on a CDN for prodution release -->
     <link rel="icon" type="image/png" href="https://www.team5926.org/images/favicon.png">
   </head>
   <body>
+    <!-- Header should be the same in every file except the active class on the current page's link -->
     <header>
       <div data-sticky-container>
         <div class="row" data-sticky data-options="marginTop:0;stickyOn:small;" style="width:100%">
@@ -39,8 +41,8 @@
                   <strong>Da MOOse - FRC 5926</strong>
                 </a>
                 <span class="menu-hamburger" data-responsive-toggle="responsive-menu" data-hide-for="large">
-                    <span class="menu-text" data-toggle>Menu</span>
-                    <span class="menu-icon" data-toggle></span>
+                  <span class="menu-text" data-toggle>Menu</span>
+                  <span class="menu-icon" data-toggle></span>
                 </span>
               </div>
               <div id="responsive-menu">
@@ -70,23 +72,19 @@
       </div>
     </header>
     <div class="row">
-      <div class="large-11 large-centered medium-12 medium-centered columns" style="background-color: #ffffff !important;">
+      <!-- Main div for the page center -->
+      <div class="large-11 large-centered medium-12 medium-centered columns p-center">
         <br>
         <div class="row">
           <div class="large-12 large-centered columns text-center">
             <h3>Our Students</h3>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="large-12 large-centered columns text-center">
+            <br>
             <p>
               Just like no two moose are the same, each one of us brings something uniquely special to the team. Some of us are homeschooled and some of us go to local area high schools, but when we come together --- watch out!  We may be a small team, but together we are mighty!
             </p>
           </div>
         </div>
         <br>
-
         <div class="row">
           <div class="large-6 medium-6 columns text-center">
             <img src="https://www.team5926.org/images/members/sw.jpg" style="display:block;margin:0 auto;width:50%;">
@@ -113,7 +111,6 @@
             </p>
           </div>
         </div>
-
         <div class="row">
           <div class="large-6 medium-6 columns text-center">
             <img src="https://www.team5926.org/images/members/sd.jpg" style="display:block;margin:0 auto;width:50%;">
@@ -140,7 +137,6 @@
             </p>
           </div>
         </div>
-
         <div class="row">
           <div class="large-6 medium-6 columns text-center">
             <object type="image/svg+xml" data="https://www.team5926.org/images/logo.svg" style="display:block;margin:0 auto;width:50%;">
@@ -169,7 +165,6 @@
             </p>
           </div>
         </div>
-
         <div class="row">
           <div class="large-6 medium-6 columns text-center">
             <img src="https://www.team5926.org/images/members/an.jpg" style="display:block;margin:0 auto;width:50%;">
@@ -210,34 +205,17 @@
             </p>
           </div>
         </div>
-
       </div>
     </div>
     <footer>
-      <!--div id="footerCopyright">
-        &copy; 2016 Samuel H. Walker
-      </div>
-      <div id="socialLinksDiv">
-        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/FRC5926/" class="clean" title="Facebook">
-          <img src="/images/social/facebook.png" alt="Facebook" class="socialLinks">
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/FRC5926" class="clean" title="Twitter">
-          <img src="/images/social/twitter.png" alt="Twitter" class="socialLinks">
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/Da MOOse.frc5926/" class="clean" title="Instagram">
-          <img src="/images/social/instagram.png" alt="Instagram" class="socialLinks">
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/frc5926" class="clean" title="Pinterest">
-          <img src="/images/social/pin.png" alt="Pinterest" class="socialLinks">
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCDMJ7UWZTJXTKKm0L_lHTqQ" class="clean" title="Youtube">
-          <img src="/images/social/youtube.png" alt="Youtube" class="socialLinks">
-        </a>
-      </div-->
     </footer>
+    <!-- From here -->
+    <!-- Begin JS -->
     <script src="/js/vendor/jquery.js"></script>
     <script src="/js/vendor/what-input.js" ></script>
     <script src="/js/vendor/foundation.min.js"></script>
     <script src="/js/app.js"></script>
+    <!-- End JS -->
+    <!-- To here will be either be: Compressed/minified to one file and/or connected to the file on a CDN for prodution release -->
   </body>
 </html>

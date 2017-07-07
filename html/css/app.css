@@ -22,7 +22,9 @@
   src: url("/fonts/collegiateHeavyOutline.woff");
 }
 
-
+.p-center {
+  background-color: #ffffff !important;
+}
 
 .DMF {
   font-family: "DMCF", sans-serif;
