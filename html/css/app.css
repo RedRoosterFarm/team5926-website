@@ -54,9 +54,13 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+.top-bar-container {
+  padding: 0;
+}
 .top-bar {
   font-family: "Fira Mono", monospace;
   background: #0f0f0f;
+  width: 100%;
 }
 
 @media only screen and (max-width: 64em) {
@@ -191,6 +195,7 @@ span.BI {
 
 .menu .active > a {
   background-color: #C40000;
+  border-radius: 15px;
 }
 
 .button.submit {
