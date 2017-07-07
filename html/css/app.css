@@ -194,3 +194,69 @@ span.BI {
 .button.submit {
   background-color: #C40000;
 }
+
+.stuck-ec-footer {
+  background-color: #fefefe;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 -10px 10px -10px #FFF;
+}
+.stuck-ec-footer-bottom-bar {
+  border-top: 1px solid #e6e6e6;
+  margin-top: 40px;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+.stuck-ec-footer-bottom-bar .menu > li > a {
+  line-height: 1.2em;
+  padding: 10px 0;
+}
+.stuck-ec-footer-bottom-bar a {
+  color: #8a8a8a;
+  font-size: 0.9rem;
+  transition: all 0.5s ease;
+}
+.stuck-ec-footer-bottom-bar a:hover {
+  color: #0a0a0a;
+  transition: all 0.5s ease;
+}
+@media screen and (max-width: 39.9375em) {
+  .stuck-ec-footer-bottom-bar ul {
+    text-align: center;
+  }
+}
+.stuck-ec-footer-bottom-bar li {
+  display: inline;
+}
+.stuck-ec-footer-bottom-bar .bottom-links {
+  margin-top: 0.65rem;
+  margin-left: 0;
+}
+.stuck-ec-footer-bottom-bar .bottom-links li {
+  padding-right: 2rem;
+}
+@media screen and (max-width: 39.9375em) {
+  .stuck-ec-footer-bottom-bar .bottom-links li {
+    text-align: center;
+  }
+}
+.stuck-ec-footer-bottom-bar .stuck-ec-footer-logomark {
+  text-align: center;
+}
+@media screen and (max-width: 39.9375em) {
+  .stuck-ec-footer-bottom-bar .stuck-ec-footer-logomark {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+.stuck-ec-footer-bottom-bar .bottom-copyright {
+  color: #8a8a8a;
+  font-size: 0.9rem;
+  line-height: 1.2em;
+  padding-top: 1rem;
+  text-align: right;
+}
+@media screen and (max-width: 39.9375em) {
+  .stuck-ec-footer-bottom-bar .bottom-copyright {
+    text-align: center;
+  }
+}
