@@ -76,20 +76,21 @@ limitations under the License.
       <div class="large-11 large-centered medium-10 medium-centered columns" style="background-color: #ffffff !important;">
         <br>
         <div class="row">
-          <div class="large-12 columns show-for-large">
-            <div class="image-blurred-edge" style="background-image:url('/images/DMHPB.jpg');background-size:100%;"></div>
-          </div>
-        </div>
-        <br>
-        <div class="row">
           <div class="large-12 medium-12 columns text-center">
             <div class="DMF HHT" style="z-index:-10;">
               DA MOOSE ROBOTICS FRC 5926
-            </div> <img src="https://www.team5926.org/images/logo.png" style="display:block;margin:0 auto;border-radius:200px;" alt="Logo">
+            </div>
+            <video width="100%" id="video_logo" autoplay loop>
+              <source src="/images/DM_logo.mp4" type="video/mp4">
+              <img src="https://www.team5926.org/images/logo.png" id="logo" alt="Logo">
+            </video>
+            <script>
+             document.getElementById('video_logo').play();
+            </script>
           </div>
-        </div>
-        <br><br><br><br>
-        <div class="row">
+          <div class="large-12 columns show-for-large">
+            <div class="image-blurred-edge" style="background-image:url('/images/DMHPB.jpg');background-size:100%;"></div>
+          </div>
           <div class="large-6 columns" style="padding-left:2em;">
             <h4>You Can Learn A lot from a Moose</h4>
             Advice from a Moose&trade;
