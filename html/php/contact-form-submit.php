@@ -1,6 +1,6 @@
 <?php
 /*
-   Copyright 2016 Samuel H. Walker
+   Copyright 2016-2017 Samuel H. Walker
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit;
   }
   // MySQL database insert
-  $db = new mysqli('localhost',$dbUser,$dbPassword,'moobotics');
+  $db = new mysqli('localhost',$dbUser,$dbPassword,'Da MOOse');
   if (mysqli_connect_errno()) {
     // Set a 500 (internal server error) response code.
     http_response_code(500);

@@ -1,0 +1,280 @@
+/*
+   Copyright 2016-2017 Samuel H. Walker
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono|Ubuntu");
+
+@font-face {
+  font-family: "DMCF";
+  font-style: normal;
+  src: url("/fonts/collegiateHeavyOutline.woff");
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  border-radius: 200px;
+  max-width: 500px;
+  min-width: 30%;
+}
+#video_logo {
+  padding-top: 3em;
+}
+
+.p-center {
+  background-color: #ffffff !important;
+}
+
+.DMF {
+  font-family: "DMCF", sans-serif;
+  font-size: 4em;
+
+}
+
+@media only screen and (min-width: 64em) {
+  .HHT {
+    transform: translateY(40%);
+  }
+}
+
+.ital-premiss {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.image-blurred-edge {
+  width: 100%;
+  height: 200px;
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 0 0 8px 8px white inset;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.top-bar-container {
+  padding: 0;
+}
+.top-bar {
+  font-family: "Fira Mono", monospace;
+  background: #0f0f0f;
+  width: 100%;
+}
+
+@media only screen and (max-width: 64em) {
+  /*.image-blurred-edge {
+    display: none;
+  }*/
+  .top-bar .top-bar-title {
+    width: 100%;
+  }
+  .top-bar .menu-hamburger {
+    padding: .4rem;
+  }
+}
+
+.top-bar .top-bar-title strong {
+  color: #fff;
+  margin: .4rem 0 .4rem .4rem;
+  display: inline-block;
+}
+
+.top-bar .menu-hamburger {
+  float: right;
+}
+
+.top-bar .menu-hamburger .menu-text {
+  color: #fff;
+}
+
+.top-bar ul {
+  background: #0f0f0f;
+}
+
+.top-bar ul li a {
+  color: #fff;
+}
+
+.top-bar .input-group {
+  margin-bottom: 0;
+}
+
+.top-bar .dropdown.menu .submenu {
+  border: none;
+}
+
+.top-bar .dropdown.menu > li.is-dropdown-submenu-parent > a:after {
+  border-color: #fff transparent transparent;
+}
+
+.top-bar .is-drilldown-submenu-parent > a::after, .top-bar .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a:after {
+  border-color: transparent transparent transparent #fff;
+}
+
+.top-bar .js-drilldown-back > a:before, .top-bar .is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a:after {
+  border-color: transparent #fff transparent transparent;
+}
+
+.button {
+  border-radius: 10px;
+}
+
+.form {
+  height: 4em;
+  width: 10em;
+}
+
+#FIRSTvideo {
+  display: block;
+  margin: auto;
+  border: 0;
+  width: 26em;
+  height: 15em;
+}
+
+.gray {
+  padding: 50px;
+  background-color: #aaaaaa;
+  border-radius: 50px;
+  height: 20em;
+}
+
+@media only screen and (min-width: 64em) {
+  body {
+    background-image: url(/images/plaid_bgd.svg);
+    background-repeat: repeat;
+    background-size: 128px 128px;
+  }
+}
+
+a.clean_email {
+  text-decoration:none;
+  color:#fff;
+}
+
+a.clean {
+  text-decoration:none;
+  color:#000;
+}
+
+#aboutPhoto1 {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#homePhoto1 {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#homePhoto2 {
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+span.BI {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.sponsors {
+  width: 50%;
+  height: auto;
+}
+
+.menu .active > a {
+  background-color: #C40000;
+  border-radius: 15px;
+}
+
+.button.submit {
+  background-color: #C40000;
+}
+
+.stuck-ec-footer {
+  background-color: #fefefe;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 -10px 10px -10px #FFF;
+}
+.stuck-ec-footer-bottom-bar {
+  border-top: 1px solid #e6e6e6;
+  margin-top: 40px;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+.stuck-ec-footer-bottom-bar .menu > li > a {
+  line-height: 1.2em;
+  padding: 10px 0;
+}
+.stuck-ec-footer-bottom-bar a {
+  color: #8a8a8a;
+  font-size: 0.9rem;
+  transition: all 0.5s ease;
+}
+.stuck-ec-footer-bottom-bar a:hover {
+  color: #0a0a0a;
+  transition: all 0.5s ease;
+}
+@media screen and (max-width: 39.9375em) {
+  .stuck-ec-footer-bottom-bar ul {
+    text-align: center;
+  }
+}
+.stuck-ec-footer-bottom-bar li {
+  display: inline;
+}
+.stuck-ec-footer-bottom-bar .bottom-links {
+  margin-top: 0.65rem;
+  margin-left: 0;
+}
+.stuck-ec-footer-bottom-bar .bottom-links li {
+  padding-right: 2rem;
+}
+@media screen and (max-width: 39.9375em) {
+  .stuck-ec-footer-bottom-bar .bottom-links li {
+    text-align: center;
+  }
+}
+.stuck-ec-footer-bottom-bar .stuck-ec-footer-logomark {
+  text-align: center;
+}
+@media screen and (max-width: 39.9375em) {
+  .stuck-ec-footer-bottom-bar .stuck-ec-footer-logomark {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+.stuck-ec-footer-bottom-bar .bottom-copyright {
+  color: #8a8a8a;
+  font-size: 0.9rem;
+  line-height: 1.2em;
+  padding-top: 1rem;
+  text-align: right;
+}
+@media screen and (max-width: 39.9375em) {
+  .stuck-ec-footer-bottom-bar .bottom-copyright {
+    text-align: center;
+  }
+}
